@@ -16,3 +16,11 @@ In order for this to work you will need to undertake two steps:
 4. Run the WooCommerce product import as you would normaly do on your target site with the downloaded .csv file. The added fields of ```_fl_builder_data``` and ```_fl_builder_draft``` will automatically be added correctly as new meta data.
 5. Check that everything looks OK.
 6. Remove the code snippets.
+
+## Inspiration
+- Adding custom export/import columns: [https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter)
+- Solving problem with **Error at offset** when unserializing: [https://stackoverflow.com/questions/19469068/unserialize-function-unserialize-error-at-offset-49151-of-49151-bytes#answer-19469339] (https://stackoverflow.com/questions/19469068/unserialize-function-unserialize-error-at-offset-49151-of-49151-bytes#answer-19469339)
+
+## Future improvements
+- Implement as plugin
+- Only run if WooCommerce and BB are active

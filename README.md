@@ -16,6 +16,7 @@ In order for this to work you will need to undertake two steps:
 4. Run the WooCommerce product import as you would normaly do on your target site with the downloaded .csv file. The added fields of ```_fl_builder_data``` and ```_fl_builder_draft``` will automatically be added correctly as new meta data.
 5. Check that everything looks OK.
 6. Remove the code snippets.
+7. Search/replace the old domain to the new domain in the database (preferably using this script since it handles serialized data well: https://interconnectit.com/products/search-and-replace-for-wordpress-databases/, just remember to remove when finished due to security reasons!)
 
 ## Inspiration
 - Adding custom export/import columns: https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter

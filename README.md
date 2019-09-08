@@ -18,8 +18,8 @@ In order for this to work you will need to undertake two steps:
 6. Remove the code snippets.
 
 ## Inspiration
-- Adding custom export/import columns: [https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter)
-- Solving problem with **Error at offset** when unserializing: [https://stackoverflow.com/questions/19469068/unserialize-function-unserialize-error-at-offset-49151-of-49151-bytes#answer-19469339] (https://stackoverflow.com/questions/19469068/unserialize-function-unserialize-error-at-offset-49151-of-49151-bytes#answer-19469339)
+- Adding custom export/import columns: https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter
+- Solving problem with **Error at offset** when unserializing: https://www.jackreichert.com/2014/02/handling-a-php-unserialize-offset-error/ and https://stackoverflow.com/questions/19469068/unserialize-function-unserialize-error-at-offset-49151-of-49151-bytes#answer-19469339
 
 ## Future improvements
 - Implement as plugin
